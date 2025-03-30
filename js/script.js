@@ -109,7 +109,7 @@ window.onload = function () {
 // Основная логика: выбор случайных карт
 const shuffledCards = Object.entries(cardImages)
     .sort(() => 0.5 - Math.random())
-    .slice(0, 3); // Берем 9 случайных карт
+    .slice(0, 9); // Берем 9 случайных карт
 
 const cardsContainer = document.getElementById("cardsContainer");
 let selectedCards = [];
