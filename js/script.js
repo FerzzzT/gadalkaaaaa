@@ -138,7 +138,7 @@ if (!cardsContainer) {
             }
             const continueBtn = document.getElementById("continueBtn");
             if (continueBtn) {
-                continueBtn.classList.toggle("hidden", selectedCards.length !== 3);
+                continueBtn.classList.toggle("hidden", selectedCards.length !== 1);
             }
         });
 
