@@ -4,13 +4,9 @@
 // Инициализация Telegram WebApp
 window.Telegram.WebApp.ready();
 window.Telegram.WebApp.expand();
-let tg = window.Telegram.WebApp;
 
 // Функция для получения параметра start_param
-function getStartParam() {
-    const urlParams = new URLSearchParams(window.Telegram.WebApp.initData);
-    return urlParams.get('start_param');
-}
+
 
 // Получаем параметр и выводим его в alert
 
