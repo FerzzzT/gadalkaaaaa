@@ -113,7 +113,7 @@ window.onload = function () {
 // Основная логика: выбор случайных карт
 const shuffledCards = Object.entries(cardImages)
     .sort(() => 0.5 - Math.random())
-    .slice(0, 9); // Берем 9 случайных карт
+    .slice(0, 3); // Берем 9 случайных карт
 
 const cardsContainer = document.getElementById("cardsContainer");
 let selectedCards = [];
@@ -130,7 +130,7 @@ if (!cardsContainer) {
             <div class="card-placeholder" style="background-image: url('${imagePath}')"></div>`;
 
         card.addEventListener("click", function () {
-            if (!selectedCards.includes(this) && selectedCards.length < 3) {
+            if (!selectedCards.includes(this) && selectedCards.length < 1) {
                 selectedCards.push(this);
                 selectedCardNames.push(cardName);
                 this.classList.add("flipped", "selected");
