@@ -142,6 +142,7 @@ if (!cardsContainer) {
             }
         });
 
+
         cardsContainer.appendChild(card);
     });
 }
