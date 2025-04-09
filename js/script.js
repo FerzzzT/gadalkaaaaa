@@ -79,7 +79,7 @@ const cardImages = {
     '10 Жезлов': 'css/cards/10g.png',
     'Королева Жезлов': 'css/cards/qg.png',
     'Рыцарь Жезлов': 'css/cards/kg.png',
-    'Паж Жезлов': 'css/cards/pw.png',
+    'Паж Жезлов': 'css/cards/pg.png',
     'Король Жезлов': 'css/cards/king_g.png',
     'Туз Кубков': 'css/cards/1c.png',
     '2 Кубков': 'css/cards/2c.png',
