@@ -91,7 +91,7 @@ const cardImages = {
     '8 Кубков': 'css/cards/8c.png',
     '9 Кубков': 'css/cards/9c.png',
     '10 Кубков': 'css/cards/10c.png',
-    'Король Кубков': 'css/cards/king_C.png',
+    'Король Кубков': 'css/cards/king_с.png',
     'Королева Кубков': 'css/cards/qc.png',
     'Рыцарь Кубков': 'css/cards/kc.png',
     'Паж Кубков': 'css/cards/pc.png',
